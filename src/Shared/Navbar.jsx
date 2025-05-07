@@ -12,13 +12,41 @@ import Register from '@/app/ComponentData/Auth/Register/RegisterJsx/Register'
 function Navbar() {
     const links = (
         <>
-            <li className='text-white lg:text-black text-sm'><Link href={"/hello"}>Home</Link></li>
-            <li className='text-white lg:text-black text-sm'><Link href={"/ComponentData/Details"}>Details</Link></li>
-            <li className='text-white lg:text-black text-sm'><Link href={"/hello"}>Shop</Link></li>
-            <li className='text-white lg:text-black text-sm'><Link href={"/hello"}>About Us</Link></li>
-            <li className='text-white lg:text-black text-sm block lg:hidden'><Link href={"/hello"}>Fevorite</Link></li>
-            <li className='text-white lg:text-black text-sm block lg:hidden'><Link href={"/hello"}>Cart</Link></li>
-            <li className='text-white lg:text-black text-sm block lg:hidden'><Link href={"/hello"}>SignIn</Link></li>
+            <li className='text-white lg:text-black text-sm'><Link href={"/"}>Home</Link></li>
+            <li className='text-white lg:text-black text-sm'><Link href={"/"}>Shop</Link></li>
+            <li className='text-white lg:text-black text-sm'><Link href={"/"}>About Us</Link></li>
+            <li className='text-white lg:text-black text-sm block lg:hidden'><Link href={"/"}>Fevorite</Link></li>
+            <li className='text-white lg:text-black text-sm block lg:hidden'><Link href={"/"}>Cart</Link></li>
+            {/* <li className='text-white lg:text-black text-sm block lg:hidden'><Link href={"/"}>SignIn</Link></li> */}
+            <li className='text-white lg:text-black text-sm block lg:hidden pl-2' onClick={() => document.getElementById('my_modal_1').showModal()}>
+            SignIn
+                
+                <dialog id="my_modal_1" className="modal">
+                    <div className="modal-box bg-white max-w-[480px] relative">
+                        <div
+                            onClick={() => document.getElementById('my_modal_1').close()}
+                            className="absolute top-0 right-0 cursor-pointer p-4"
+                        >
+                            <h1 className='text-6xl font-semibold text-[#212337] text-center'>X</h1>
+                        </div>
+                        <Login />
+                    </div>
+                </dialog>
+            </li>
+            <li className='text-white lg:text-black text-sm block lg:hidden pl-2 pt-2' onClick={() => document.getElementById('my_modal_2').showModal()}>
+            Sign Up
+                <dialog id="my_modal_2" className="modal">
+                    <div className="modal-box bg-white max-w-[480px] relative">
+                        <div
+                            onClick={() => document.getElementById('my_modal_2').close()}
+                            className="absolute top-0 right-0 cursor-pointer p-4"
+                        >
+                            <h1 className='text-6xl font-semibold text-[#212337] text-center'>X</h1>
+                        </div>
+                        <Register />
+                    </div>
+                </dialog>
+            </li>
         </>
     )
 

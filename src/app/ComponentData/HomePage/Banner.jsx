@@ -1,8 +1,6 @@
 
 
 import Image from 'next/image'
-
-
 import clipimage from '../../../../public/cardimage/Clip_path.png'
 import pizzaimg from '../../../../public/cardimage/pizza.png'
 import { FaApple } from 'react-icons/fa'
