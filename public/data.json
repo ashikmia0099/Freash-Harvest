@@ -1,0 +1,84 @@
+[
+    {
+      "id": 101,
+      "title": "Mushroom",
+      "category": "fruits",
+      "rating": 4.5,
+      "price": "2.3",
+      "description": "Premium quality organic almonds, rich in nutrients.",
+      "quantity": 20,
+      "image": "https://i.ibb.co.com/wrdhMDjn/Image-2.png"
+    },
+    {
+      "id": 102,
+      "title": "Mustard",
+      "category": "fruits",
+      "rating": 4.2,
+      "price": "25",
+      "description": "Fresh and aromatic green tea leaves for a healthy lifestyle.",
+      "quantity": 15,
+      "image": "https://i.ibb.co.com/0Rr6YhWF/Image-3.png"
+    },
+    {
+      "id": 103,
+      "title": "Orange",
+      "category": "fruits",
+      "rating": 4.8,
+      "price": "10",
+      "description": "High fiber whole grain oats, perfect for breakfast.",
+      "quantity": 10,
+      "image": "https://i.ibb.co.com/qFsYfPnV/16-1.png"
+    },
+    {
+      "id": 104,
+      "title": "Pomegranate",
+      "category": "vegetables",
+      "rating": 4.7,
+      "price": "5",
+      "description": "Natural raw honey from forest beekeeping.",
+      "quantity": 25,
+      "image": "https://i.ibb.co.com/qFsYfPnV/16-1.png"
+    },
+    {
+      "id": 105,
+      "title": "Kiwi",
+      "category": "vegetables",
+      "rating": 4.3,
+      "price": "11",
+      "description": "Nutrient-packed chia seeds for smoothies and salads.",
+      "quantity": 30,
+      "image": "https://i.ibb.co.com/PsW4csw3/16-2.png"
+    },
+    {
+      "id": 106,
+      "title": "Coconut",
+      "category": "salad",
+      "rating": 4.6,
+      "price": "12",
+      "description": "Cold-pressed extra virgin olive oil, perfect for dressings.",
+      "quantity": 12,
+      "image": "https://i.ibb.co.com/231qBXY3/16-5.png"
+    },
+    {
+      "id": 107,
+      "title": "Guava",
+      "category": "fruits",
+      "rating": 4.4,
+      "price": "6",
+      "description": "Gluten-free quinoa, rich in protein and fiber.",
+      "quantity": 18,
+      "image": "https://i.ibb.co.com/mrJ2Ssxw/16-3.png"
+    },
+    {
+      "id": 108,
+      "title": "Eggplant",
+      "category": "salad",
+      "rating": 4.1,
+      "price": "6",
+      "description": "Low-carb coconut flour for healthy baking.",
+      "quantity": 22,
+      "image": "https://i.ibb.co.com/3ynbv3M8/16-4.png"
+    }
+    
+  ]
+  
